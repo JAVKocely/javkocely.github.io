@@ -72,3 +72,12 @@ footer p {
     color: #888;
     margin-top: 24px;
 }
+article > section video {
+    width: 480px; height: 200px;
+}
+article > section div.no-html5-video,
+article > section div#no-canvas {
+    width: 480px; height: 40px; border: 1px solid #993333;
+    text-align: center; color: #993333; font-size: 13px;
+    font-style: italic; background-color: #F7E9E9;
+}
