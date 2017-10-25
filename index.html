@@ -1,57 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Mi blog</title>
-    <link rel="stylesheet" type="text/css"
-    href="styles.css">
+    <title>HTML5 Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--[if IE]>
+    <script src="//html5shiv.googlecode.com/
+  /html5.js"></script>
+    <![endif]-->
   </head>
   <body>
-    <div id="header">
-      <div class="container">
-      <a id="header-title" href="index.html">Mi blog</a>
-      <ul id="header-nav">
-        <li><a href="about.html">About</a></li>
-        <li><a href="Contact.html">Contact</a></li>
-      </ul>
-      </div>
-    </div>
-    <div id="content">
-      <div class="container">
-        <div class="post">
-          <div class="post-autor">
-            <img src="IMG-20170212-WA0011.jpe
-            ">
-            <span>John Valderrama kocely</span>
-          </div>
-          <p class="post-date">today</p>
-          <h3 class="post-title">Becoming a web Developer</h3>
-          <div class="post-content">
-            <p>Si alguien una semana antes me hubiera dicho que
-              iba a hacer una pagina web, no lo hubiera creido</p>
-              <p>Solo unos dias atras, yo empece con MIMO a hacer
-              un Blog real.</p>
+    <header>
+    <hgroup>
+        <h1>Chicharron FDS</h1>
+        <h2>MI BEBE ES LA MAS HERMOSA DEL UNIVERSO</h2>
 
+    </hgroup>
+</header>
 
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="footer">
-      <div class="container">
-        <div class="column">
-          <h4>My links</h4>
-          <p>
-            <a href="https://twitter.com/me"></a>
-            <br>
-            <a href="https://facebook.com/me"></a>
-          </p>
-        </div>
-        <div class="column">
-          <h4>My Story</h4>
-          <p>Hi there! Soy un aspirante a desarrollador web.</p>
-        </div>
-      </div>
-    </div>
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+
+</nav>
+
+<article>
+    <header>
+        <time datetime="2017-10-24" pubdate>
+            <span>OCT</span> 30
+        </time>
+
+        <h1>
+            <a href="#" title="Link to this post"
+rel="bookmark">DOMICILIOS</a>
+        </h1>
+    </header>
+    <p>This is an article that demonstrates some of the new features
+that HTML5 and CSS3 has to offer. This article contains several sections, each
+with its own heading, as well as a video element which will play a video without
+Flash on browsers that support it.</p>
+
+    <section>
+        <header>
+            <h1>This is a section heading</h1>
+        </header>
+        <p>This is an example of a basic section of a document.
+A section can refer to different parts of a document, application, or page.
+According to the draft W3C spec, HTML5 sections usually have headings.</p>
+
+    </section>
+    <section>
+    <header>
+        <h1>Esta es una sección de video</h1>
+    </header>
+    <p>
+        <video src="//www.double.co.nz/video_test/transformers480.ogg"
+controls autoplay>
+            <div class="no-html5-video">
+                <p>Este video sólo funcionará en Mozilla Firefox o Google
+Chrome.</p>
+            </div>
+        </video>
+    </p>
+</section>
+</article>
+
+<footer>
+    <p>&copy; 2009 Company Name. All rights reserved.</p>
+</footer>
+
   </body>
 </html>
